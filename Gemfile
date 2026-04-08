@@ -11,6 +11,7 @@ gem 'sqlite3', '~> 2.9.2'
 gem 'pg', '~> 1.5'
 # gem 'mysql2', '~> 0.4.10'
 
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Bootstrap ui framework
