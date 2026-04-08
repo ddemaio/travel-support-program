@@ -16,7 +16,7 @@ Metrics/ModuleLength:
 # Apply rule to all cops
 AllCops:
   NewCops: enable
-  TargetRubyVersion: 2.4
+  TargetRubyVersion: 3.4
   Exclude:
     - 'db/schema.rb'
     - 'vendor/bundle/**/*'
