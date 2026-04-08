@@ -41,6 +41,10 @@ end
 
 gem 'listen'
 
+gem 'mutex_m'
+gem 'cgi'
+gem 'strscan'
+
 # Debugger
 gem 'byebug', group: %i[development test]
 

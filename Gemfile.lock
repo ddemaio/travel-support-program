@@ -90,6 +90,7 @@ GEM
     caxlsx_rails (0.6.4)
       actionpack (>= 3.1)
       caxlsx (>= 3.0)
+    cgi (0.5.1)
     childprocess (5.1.0)
       logger (~> 1.5)
     clockwork (4.0.1)
@@ -247,6 +248,7 @@ GEM
     mini_racer (0.20.0)
       libv8-node (~> 24.12.0.1)
     minitest (5.27.0)
+    mutex_m (0.3.0)
     nio4r (2.7.5)
     nokogiri (1.19.2)
       mini_portile2 (~> 2.8.2)
@@ -432,6 +434,7 @@ GEM
       rdoc
       state_machines-graphviz
       yard
+    strscan (3.1.8)
     temple (0.10.4)
     thor (1.5.0)
     thread_safe (0.3.6)
@@ -471,6 +474,7 @@ DEPENDENCIES
   capybara-email
   carrierwave
   caxlsx_rails
+  cgi
   clockwork
   cocoon
   coffee-rails
@@ -491,6 +495,7 @@ DEPENDENCIES
   listen
   mail (< 2.8.0)
   mini_racer
+  mutex_m
   pdf-reader
   pg (~> 1.5)
   prawn (~> 0.13.0)
@@ -518,6 +523,7 @@ DEPENDENCIES
   sqlite3 (~> 2.9.2)
   state_machines-activerecord
   state_machines-yard
+  strscan
   uglifier
   yard (~> 0.9.0)
   yard-activerecord
