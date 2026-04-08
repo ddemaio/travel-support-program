@@ -11,8 +11,6 @@ gem 'sqlite3', '~> 2.9.2'
 gem 'pg', '~> 1.5'
 # gem 'mysql2', '~> 0.4.10'
 
-# This can only be removed with Rails 7.0
-
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Bootstrap ui framework
